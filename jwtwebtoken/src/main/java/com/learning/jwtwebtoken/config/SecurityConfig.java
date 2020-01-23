@@ -35,6 +35,7 @@ import com.learning.jwtwebtoken.security.JwtAuthenticationFilter;
         prePostEnabled = true
 )
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+	
     @Autowired
     CustomUserDetailsService customUserDetailsService;
 
